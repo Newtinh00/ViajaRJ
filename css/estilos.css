@@ -1,0 +1,214 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+}
+
+.menu{
+	width: 100%;
+	background: transparent;
+	height: 60px;
+	top: 0px;
+	display: flex;
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+}
+
+.menu .logo{
+	position: absolute;	
+	left: 100px;
+}
+
+.menu .logo img{
+	height: 70px;
+}
+
+.menu ul{
+	right: 100px;
+	position: absolute;
+	display: flex;
+}
+
+.menu ul li{
+	list-style: none;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: 500;
+
+}	
+
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+}
+
+.menu ul li a:hover{
+	text-shadow: 0px 0px 0px black;
+	border-radius: 50px;
+	color: #000;
+}
+
+.home{
+	background-image: url(../img/home2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: center;
+	padding: 160px 0px 0px 100px;
+	margin: -88px 0px 0px 0px;
+	min-height: 85vh;
+}
+
+.home .descricao-home{
+	color: white;
+}
+
+.home h1{
+	font-size: 55px;
+	margin-bottom: -5px;
+	text-shadow: 1px 2px 3px black;
+}
+
+.home p{
+	font-size: 20px;
+	margin-bottom: 50px;
+	text-shadow: 1px 1px 2px black;
+}
+
+.botao{
+	background-color: #F59D1A;
+	padding: 13px 18px 13px 18px;
+	border-radius: 50px;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.botao:hover{
+	background-color: #F7C077;
+	transition: .30s;
+}
+
+.explore{
+	background-color: #FCFCFC;
+}
+
+.explore .razoes{
+	display: flex;
+    width: 800px;
+    height: 468px;
+    position: relative;
+    top: -60px;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 2px 5px 10px grey;
+    margin:0px;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.explore .img-razoes{
+	width: 50%;
+}
+
+.explore .img-razoes img{
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 100%;
+}
+
+.explore .descricao-razoes{
+	width: 50%;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+	background-color: #fff;
+	padding-left: 30px;
+}
+
+.titulo{
+	font-size: 35px;
+	color: #F59D1A;
+	margin-left: 10px;
+	margin-right: 25px;
+}
+.texto{
+	font-size: 16px;
+	line-height: 25px;
+	color: #5B5B5B;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+
+.explore .descricao-razoes a{
+	margin-left: 10px;
+}
+
+ion-icon {
+  font-size: 64px;
+  color: #353535;
+}
+
+.icons{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.lista{
+	width: 800px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	position: relative;
+	left: 53%;
+	transform: translate(-50%);
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.icons .lista div{
+	list-style: none;
+	background-color: #fff;
+	border: 0px solid #777777;	
+	padding-top: 25px;	
+	padding-bottom: 20px;
+	width: 180px;
+	box-shadow: 2px 5px 10px #777777;
+}
+
+.icons .lista p{
+	font-size: 20px;
+	font-weight: bold;
+	color: #777;
+}
+
+.praia{
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.praia .img-praia img{
+	width: 100%;
+}
+
+.praia .descricao-praia{
+	background-color: #F4F5EB;
+}
+
+.praia .descricao-praia .titulo{
+	margin-left: 40px;
+	margin-top: 50px;
+}
+
+.praia .descricao-praia .texto{
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size: 19px;
+	margin-bottom: 40px;
+}
+
+.praia .descricao-praia .botao{
+	margin-left:  40px;
+}
