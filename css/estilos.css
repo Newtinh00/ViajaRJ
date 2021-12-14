@@ -4,6 +4,18 @@ body{
 	font-family: 'Lato', sans-serif;
 }
 
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+/*Menu*/
 .menu{
 	width: 100%;
 	background: transparent;
@@ -30,7 +42,6 @@ body{
 }
 
 .menu ul li{
-	list-style: none;
 	padding: 15px;
 	font-size: 18px;
 	font-weight: 500;
@@ -38,7 +49,6 @@ body{
 }	
 
 .menu ul li a{
-	text-decoration: none;
 	color: white;
 	text-shadow: 1px 1px 2px black;
 }
@@ -49,6 +59,8 @@ body{
 	color: #000;
 }
 
+
+/*Home*/
 .home{
 	background-image: url(../img/home2.jpg);
 	background-size: cover;
@@ -89,6 +101,8 @@ body{
 	transition: .30s;
 }
 
+
+/*Explore*/
 .explore{
 	background-color: #FCFCFC;
 }
@@ -183,6 +197,8 @@ ion-icon {
 	color: #777;
 }
 
+/*Praia*/
+
 .praia{
 	display: grid;
 	grid-gap: 0px;
@@ -211,4 +227,120 @@ ion-icon {
 
 .praia .descricao-praia .botao{
 	margin-left:  40px;
+}
+
+
+/*Galeria*/
+
+.titulo-linha{
+	text-align: center;
+	width: 150px;
+	margin: 0 auto;
+}
+
+.titulo-linha hr{
+	margin-top: -25px;
+	border: 2px solid #13d6a5;
+	width: 50px;
+	margin-bottom: 50px;
+}
+
+.galeria{
+	width: 100%;
+	margin-bottom: 60px;
+}
+
+.galeria ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px;
+	justify-content: center;
+}
+.galeria ul li{
+	margin: 8px;
+	width: calc(90%/3);
+}
+
+.galeria img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+
+/*Contato*/
+
+.contato{
+	text-align: center;
+	background-color:  #FCFCFC;
+	margin-top: -20px;
+	padding: 40px 0;
+}
+
+.contato h2{
+	color: #5B5B5B;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+.contato ul{
+	display: flex;
+	justify-content: center;
+	margin: 0px;
+	padding: 0px;
+}
+
+.contato ul li{
+	margin: 5px;
+}
+
+.contato ion-icon{
+	color:  #F59D1A;
+	border: 2px solid #F59D1A;
+	border-radius: 50%;
+	padding: 5px;
+	font-size: 23px;
+}
+
+.contato ion-icon:hover{
+	color: #fff;
+	background-color: #F59D1A;
+}
+
+.rodape{
+	background-color: #730d0d;
+	margin: -0px 0;
+	padding: 20px;
+	color: #fff;
+}
+
+.rodape .rodape-info{
+	display: flex;
+	justify-content: space-between;
+}
+
+.rodape .rodape-info ul li{
+	line-height: 25px;
+}
+.rodape .rodape-info ul li a{
+	color: #fff;
+}
+
+.rodape .rodape-info ul li a:hover{
+	text-decoration: underline;
+}
+
+.rodape .rodape-info .logo{
+	margin-right: 100px;
+	margin-top: 20px;
+}
+
+.rodape .rodape-info img{
+	width: 100px;
+}
+
+.rodape h3{
+	text-align: center;
+	font-weight: 300;
+	margin-bottom: -1px;
 }

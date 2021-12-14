@@ -18,10 +18,11 @@
 			</div>
 
 			<ul>
-				<li><a href="">Home</a></li>
-				<li><a href="">Explore</a></li>
-				<li><a href="">Galeria</a></li>
-				<li><a href="">Contato</a></li>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#explore">Explore</a></li>
+				<li><a href="#praia">Praia</a></li>
+				<li><a href="#galeria">Galeria</a></li>
+				<li><a href="#contato">Contato</a></li>
 			</ul>
 		</nav>
 
@@ -34,7 +35,7 @@
 			</div>
 		</section>
 
-		<section class="explore">
+		<section class="explore" id="explore">
 			<div class="razoes">
 				<div class="descricao-razoes">
 					<h1 class="titulo">Razões para ir à Paraty</h1>
@@ -57,7 +58,25 @@
 			</div>
 		</section>
 
-		<section class="praia">
+
+
+		<section class="galeria" id="galeria">
+			<div class="titulo-linha">
+				<h1 class="titulo">Galeria</h1>
+				<hr></hr>
+			</div>
+		
+			<ul>	
+				<li class="image"><img src="img/img1.jpeg"></li>
+				<li class="image"><img src="img/img2.jpg"></li>
+				<li class="image"><img src="img/img3.jpg"></li>
+				<li class="image"><img src="img/img4.jpg"></li>
+				<li class="image"><img src="img/img5.jpg"></li>
+				<li class="image"><img src="img/img6.jpg"></li>
+			</ul>
+		</section>
+
+		<section class="praia" id="praia">
 			<div class="img-praia">
 				<img src="img/trindade.jpg">
 			</div>
@@ -72,30 +91,36 @@
 			</div>
 		</section>
 
-		<section class="galeria">
-			
-		</section>
-
-		<section class="contato">
-			<div class="img-contato">
-				
-			</div>
-
+		<section class="contato" id="contato">
 			<div class="descricao-contato">
-				
+				<h2>Conecte-se conosco!</h2>
+				<ul>
+					<li><a href="https://www.facebook.com"><ion-icon name="logo-facebook"></ion-icon></a></li>
+					<li><a href="https://www.instagram.com"><ion-icon name="logo-instagram"></ion-icon></a></li>
+					<li><a href="https://twitter.com/login?lang=pt"><ion-icon name="logo-twitter"></ion-icon></a></li>
+					<li><a href="youtube.com"><ion-icon name="logo-youtube"></ion-icon></a></li>
+				</ul>
 			</div>
 		</section>
 
 		<footer class="rodape">
-			<ul>
-				<li><a href=""></a>Termos de Condições e Privacidade</li>
-				<li><a href=""></a>Sobre Nós</li>
-				<li>Todos os direitos reservados c ViajaRJ 2021</li>
-			</ul>
+			<div class="rodape-info">
+				<ul>
+					<li><a href="">Termos de Condições e Privacidade</a></li>
+					<li><a href="">Sobre Nós</a></li>
+					<li><a href="">Créditos</a></li>
+				</ul>
+
+				<div class="logo"><img src="img/logo.png"></div>
+			</div>
+
+			<h3>Todos os direitos reservados &copy ViajaRJ 2021</h3>
 		</footer>
 
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	</body>
 
