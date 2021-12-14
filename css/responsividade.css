@@ -1,0 +1,42 @@
+/*Tela máxima de 1161px*/
+
+@media (max-width: 1161px){
+
+.praia .descricao-praia .texto{
+	font-size: 15px;
+	
+}
+.praia .descricao-praia{
+	padding: 50px 5px;
+}
+
+.praia .texto{
+	margin: 5px;
+}
+
+.praia .descricao-praia .titulo {
+	margin-top: 10px;
+}
+
+
+.praia .descricao-praia .botao {
+	margin-top: -20px;
+}
+
+/*Tela máxima de 1024px*/
+
+@media (max-width: 1024px){
+
+	.home{
+		min-height: 70vh;
+	}
+
+	.galeria ul li {
+	    margin: 8px;
+	    width: calc(90%/2);
+	}	
+
+	.praia{
+		display: block;
+	}
+}

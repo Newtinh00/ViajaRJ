@@ -207,10 +207,12 @@ ion-icon {
 
 .praia .img-praia img{
 	width: 100%;
+	height: 100%;
 }
 
 .praia .descricao-praia{
 	background-color: #F4F5EB;
+	padding-bottom: 20px;
 }
 
 .praia .descricao-praia .titulo{
